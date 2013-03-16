@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		521A5BBB16F4199D00D010F4 /* LTAutoRefresher.m in Sources */ = {isa = PBXBuildFile; fileRef = 522DCDBB1537D65D006A442A /* LTAutoRefresher.m */; };
+		522DCD701537D5A4006A442A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522DCD6F1537D5A4006A442A /* UIKit.framework */; };
+		522DCD721537D5A4006A442A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522DCD711537D5A4006A442A /* Foundation.framework */; };
+		522DCD741537D5A4006A442A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522DCD731537D5A4006A442A /* CoreGraphics.framework */; };
+		522DCD7A1537D5A4006A442A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 522DCD781537D5A4006A442A /* InfoPlist.strings */; };
+		522DCD7C1537D5A4006A442A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 522DCD7B1537D5A4006A442A /* main.m */; };
+		522DCD801537D5A4006A442A /* LTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 522DCD7F1537D5A4006A442A /* LTAppDelegate.m */; };
+		522DCD831537D5A4006A442A /* LTMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522DCD821537D5A4006A442A /* LTMasterViewController.m */; };
+		522DCD861537D5A4006A442A /* LTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522DCD851537D5A4006A442A /* LTDetailViewController.m */; };
+		522DCD891537D5A4006A442A /* LTMasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522DCD871537D5A4006A442A /* LTMasterViewController_iPhone.xib */; };
+		522DCD8C1537D5A4006A442A /* LTMasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522DCD8A1537D5A4006A442A /* LTMasterViewController_iPad.xib */; };
+		522DCD8F1537D5A5006A442A /* LTDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522DCD8D1537D5A5006A442A /* LTDetailViewController_iPhone.xib */; };
+		522DCD921537D5A5006A442A /* LTDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522DCD901537D5A5006A442A /* LTDetailViewController_iPad.xib */; };
+		522DCD9A1537D5A5006A442A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522DCD991537D5A5006A442A /* SenTestingKit.framework */; };
+		522DCD9B1537D5A5006A442A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522DCD6F1537D5A4006A442A /* UIKit.framework */; };
+		522DCD9C1537D5A5006A442A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522DCD711537D5A4006A442A /* Foundation.framework */; };
+		522DCDA41537D5A5006A442A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 522DCDA21537D5A5006A442A /* InfoPlist.strings */; };
+		522DCDA71537D5A5006A442A /* LTUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 522DCDA61537D5A5006A442A /* LTUtilsTests.m */; };
+		522DCDCE1537D65D006A442A /* LTAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 522DCDB91537D65D006A442A /* LTAlertView.m */; };
+		522DCDD01537D65D006A442A /* LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 522DCDBD1537D65D006A442A /* LTExtension.m */; };
+		522DCDD11537D65D006A442A /* LTNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 522DCDC01537D65D006A442A /* LTNavigationBar.m */; };
+		522DCDD21537D65D006A442A /* LTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522DCDC21537D65D006A442A /* LTNavigationController.m */; };
+		522DCDD31537D65D006A442A /* LTNavigationControllerLTBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522DCDC31537D65D006A442A /* LTNavigationControllerLTBar.xib */; };
+		522DCDD61537D65D006A442A /* LTScreenCornerRoundedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 522DCDC91537D65D006A442A /* LTScreenCornerRoundedView.m */; };
+		522DCDD71537D65D006A442A /* LTTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 522DCDCB1537D65D006A442A /* LTTableView.m */; };
+		522DCDD81537D65D006A442A /* LTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 522DCDCD1537D65D006A442A /* LTView.m */; };
+		5261448715D0FCBE0043F749 /* LTActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5261448615D0FCBE0043F749 /* LTActionSheet.m */; };
+		52CF90B91675D64400F32344 /* LTWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CF90B81675D64300F32344 /* LTWeakTimer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		522DCD9D1537D5A5006A442A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 522DCD621537D5A3006A442A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 522DCD6A1537D5A4006A442A;
+			remoteInfo = LTUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		522DCD6B1537D5A4006A442A /* LTUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		522DCD6F1537D5A4006A442A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		522DCD711537D5A4006A442A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		522DCD731537D5A4006A442A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		522DCD771537D5A4006A442A /* LTUtils-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LTUtils-Info.plist"; sourceTree = "<group>"; };
+		522DCD791537D5A4006A442A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		522DCD7B1537D5A4006A442A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		522DCD7D1537D5A4006A442A /* LTUtils-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LTUtils-Prefix.pch"; sourceTree = "<group>"; };
+		522DCD7E1537D5A4006A442A /* LTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTAppDelegate.h; sourceTree = "<group>"; };
+		522DCD7F1537D5A4006A442A /* LTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTAppDelegate.m; sourceTree = "<group>"; };
+		522DCD811537D5A4006A442A /* LTMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTMasterViewController.h; sourceTree = "<group>"; };
+		522DCD821537D5A4006A442A /* LTMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTMasterViewController.m; sourceTree = "<group>"; };
+		522DCD841537D5A4006A442A /* LTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTDetailViewController.h; sourceTree = "<group>"; };
+		522DCD851537D5A4006A442A /* LTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTDetailViewController.m; sourceTree = "<group>"; };
+		522DCD881537D5A4006A442A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LTMasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		522DCD8B1537D5A4006A442A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LTMasterViewController_iPad.xib; sourceTree = "<group>"; };
+		522DCD8E1537D5A5006A442A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LTDetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		522DCD911537D5A5006A442A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LTDetailViewController_iPad.xib; sourceTree = "<group>"; };
+		522DCD981537D5A5006A442A /* LTUtilsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTUtilsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		522DCD991537D5A5006A442A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		522DCDA11537D5A5006A442A /* LTUtilsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LTUtilsTests-Info.plist"; sourceTree = "<group>"; };
+		522DCDA31537D5A5006A442A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		522DCDA51537D5A5006A442A /* LTUtilsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTUtilsTests.h; sourceTree = "<group>"; };
+		522DCDA61537D5A5006A442A /* LTUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTUtilsTests.m; sourceTree = "<group>"; };
+		522DCDB81537D65D006A442A /* LTAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTAlertView.h; sourceTree = "<group>"; };
+		522DCDB91537D65D006A442A /* LTAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTAlertView.m; sourceTree = "<group>"; };
+		522DCDBA1537D65D006A442A /* LTAutoRefresher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTAutoRefresher.h; sourceTree = "<group>"; };
+		522DCDBB1537D65D006A442A /* LTAutoRefresher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTAutoRefresher.m; sourceTree = "<group>"; };
+		522DCDBC1537D65D006A442A /* LTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTExtension.h; sourceTree = "<group>"; };
+		522DCDBD1537D65D006A442A /* LTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTExtension.m; sourceTree = "<group>"; };
+		522DCDBE1537D65D006A442A /* LTGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTGlobal.h; sourceTree = "<group>"; };
+		522DCDBF1537D65D006A442A /* LTNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTNavigationBar.h; sourceTree = "<group>"; };
+		522DCDC01537D65D006A442A /* LTNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTNavigationBar.m; sourceTree = "<group>"; };
+		522DCDC11537D65D006A442A /* LTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTNavigationController.h; sourceTree = "<group>"; };
+		522DCDC21537D65D006A442A /* LTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTNavigationController.m; sourceTree = "<group>"; };
+		522DCDC31537D65D006A442A /* LTNavigationControllerLTBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LTNavigationControllerLTBar.xib; sourceTree = "<group>"; };
+		522DCDC41537D65D006A442A /* LTPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPopoverController.h; sourceTree = "<group>"; };
+		522DCDC51537D65D006A442A /* LTPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPopoverController.m; sourceTree = "<group>"; };
+		522DCDC61537D65D006A442A /* LTPullToRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPullToRefreshTableViewController.h; sourceTree = "<group>"; };
+		522DCDC71537D65D006A442A /* LTPullToRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPullToRefreshTableViewController.m; sourceTree = "<group>"; };
+		522DCDC81537D65D006A442A /* LTScreenCornerRoundedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTScreenCornerRoundedView.h; sourceTree = "<group>"; };
+		522DCDC91537D65D006A442A /* LTScreenCornerRoundedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTScreenCornerRoundedView.m; sourceTree = "<group>"; };
+		522DCDCA1537D65D006A442A /* LTTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTableView.h; sourceTree = "<group>"; };
+		522DCDCB1537D65D006A442A /* LTTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTableView.m; sourceTree = "<group>"; };
+		522DCDCC1537D65D006A442A /* LTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTView.h; sourceTree = "<group>"; };
+		522DCDCD1537D65D006A442A /* LTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTView.m; sourceTree = "<group>"; };
+		5261448515D0FCBE0043F749 /* LTActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTActionSheet.h; sourceTree = "<group>"; };
+		5261448615D0FCBE0043F749 /* LTActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTActionSheet.m; sourceTree = "<group>"; };
+		52CF90B71675D64300F32344 /* LTWeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTWeakTimer.h; sourceTree = "<group>"; };
+		52CF90B81675D64300F32344 /* LTWeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTWeakTimer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		522DCD681537D5A4006A442A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522DCD701537D5A4006A442A /* UIKit.framework in Frameworks */,
+				522DCD721537D5A4006A442A /* Foundation.framework in Frameworks */,
+				522DCD741537D5A4006A442A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522DCD941537D5A5006A442A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522DCD9A1537D5A5006A442A /* SenTestingKit.framework in Frameworks */,
+				522DCD9B1537D5A5006A442A /* UIKit.framework in Frameworks */,
+				522DCD9C1537D5A5006A442A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		522DCD601537D5A3006A442A = {
+			isa = PBXGroup;
+			children = (
+				522DCDB71537D65D006A442A /* Library */,
+				522DCD751537D5A4006A442A /* Demo App */,
+				522DCD9F1537D5A5006A442A /* Tests */,
+				522DCD6E1537D5A4006A442A /* Frameworks */,
+				522DCD6C1537D5A4006A442A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		522DCD6C1537D5A4006A442A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				522DCD6B1537D5A4006A442A /* LTUtils.app */,
+				522DCD981537D5A5006A442A /* LTUtilsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		522DCD6E1537D5A4006A442A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				522DCD6F1537D5A4006A442A /* UIKit.framework */,
+				522DCD711537D5A4006A442A /* Foundation.framework */,
+				522DCD731537D5A4006A442A /* CoreGraphics.framework */,
+				522DCD991537D5A5006A442A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		522DCD751537D5A4006A442A /* Demo App */ = {
+			isa = PBXGroup;
+			children = (
+				522DCD7E1537D5A4006A442A /* LTAppDelegate.h */,
+				522DCD7F1537D5A4006A442A /* LTAppDelegate.m */,
+				522DCD811537D5A4006A442A /* LTMasterViewController.h */,
+				522DCD821537D5A4006A442A /* LTMasterViewController.m */,
+				522DCD841537D5A4006A442A /* LTDetailViewController.h */,
+				522DCD851537D5A4006A442A /* LTDetailViewController.m */,
+				522DCD871537D5A4006A442A /* LTMasterViewController_iPhone.xib */,
+				522DCD8A1537D5A4006A442A /* LTMasterViewController_iPad.xib */,
+				522DCD8D1537D5A5006A442A /* LTDetailViewController_iPhone.xib */,
+				522DCD901537D5A5006A442A /* LTDetailViewController_iPad.xib */,
+				522DCD761537D5A4006A442A /* Supporting Files */,
+			);
+			name = "Demo App";
+			path = LTUtils;
+			sourceTree = "<group>";
+		};
+		522DCD761537D5A4006A442A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				522DCD771537D5A4006A442A /* LTUtils-Info.plist */,
+				522DCD781537D5A4006A442A /* InfoPlist.strings */,
+				522DCD7B1537D5A4006A442A /* main.m */,
+				522DCD7D1537D5A4006A442A /* LTUtils-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		522DCD9F1537D5A5006A442A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				522DCDA51537D5A5006A442A /* LTUtilsTests.h */,
+				522DCDA61537D5A5006A442A /* LTUtilsTests.m */,
+				522DCDA01537D5A5006A442A /* Supporting Files */,
+			);
+			name = Tests;
+			path = LTUtilsTests;
+			sourceTree = "<group>";
+		};
+		522DCDA01537D5A5006A442A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				522DCDA11537D5A5006A442A /* LTUtilsTests-Info.plist */,
+				522DCDA21537D5A5006A442A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		522DCDB71537D65D006A442A /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				522DCDB81537D65D006A442A /* LTAlertView.h */,
+				522DCDB91537D65D006A442A /* LTAlertView.m */,
+				522DCDBA1537D65D006A442A /* LTAutoRefresher.h */,
+				522DCDBB1537D65D006A442A /* LTAutoRefresher.m */,
+				52CF90B71675D64300F32344 /* LTWeakTimer.h */,
+				52CF90B81675D64300F32344 /* LTWeakTimer.m */,
+				522DCDBC1537D65D006A442A /* LTExtension.h */,
+				522DCDBD1537D65D006A442A /* LTExtension.m */,
+				522DCDBE1537D65D006A442A /* LTGlobal.h */,
+				522DCDBF1537D65D006A442A /* LTNavigationBar.h */,
+				522DCDC01537D65D006A442A /* LTNavigationBar.m */,
+				522DCDC11537D65D006A442A /* LTNavigationController.h */,
+				522DCDC21537D65D006A442A /* LTNavigationController.m */,
+				522DCDC31537D65D006A442A /* LTNavigationControllerLTBar.xib */,
+				522DCDC41537D65D006A442A /* LTPopoverController.h */,
+				522DCDC51537D65D006A442A /* LTPopoverController.m */,
+				522DCDC61537D65D006A442A /* LTPullToRefreshTableViewController.h */,
+				522DCDC71537D65D006A442A /* LTPullToRefreshTableViewController.m */,
+				522DCDC81537D65D006A442A /* LTScreenCornerRoundedView.h */,
+				522DCDC91537D65D006A442A /* LTScreenCornerRoundedView.m */,
+				522DCDCA1537D65D006A442A /* LTTableView.h */,
+				522DCDCB1537D65D006A442A /* LTTableView.m */,
+				522DCDCC1537D65D006A442A /* LTView.h */,
+				522DCDCD1537D65D006A442A /* LTView.m */,
+				5261448515D0FCBE0043F749 /* LTActionSheet.h */,
+				5261448615D0FCBE0043F749 /* LTActionSheet.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		522DCD6A1537D5A4006A442A /* LTUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522DCDAA1537D5A5006A442A /* Build configuration list for PBXNativeTarget "LTUtils" */;
+			buildPhases = (
+				522DCD671537D5A4006A442A /* Sources */,
+				522DCD681537D5A4006A442A /* Frameworks */,
+				522DCD691537D5A4006A442A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTUtils;
+			productName = LTUtils;
+			productReference = 522DCD6B1537D5A4006A442A /* LTUtils.app */;
+			productType = "com.apple.product-type.application";
+		};
+		522DCD971537D5A5006A442A /* LTUtilsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522DCDAD1537D5A5006A442A /* Build configuration list for PBXNativeTarget "LTUtilsTests" */;
+			buildPhases = (
+				522DCD931537D5A5006A442A /* Sources */,
+				522DCD941537D5A5006A442A /* Frameworks */,
+				522DCD951537D5A5006A442A /* Resources */,
+				522DCD961537D5A5006A442A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				522DCD9E1537D5A5006A442A /* PBXTargetDependency */,
+			);
+			name = LTUtilsTests;
+			productName = LTUtilsTests;
+			productReference = 522DCD981537D5A5006A442A /* LTUtilsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		522DCD621537D5A3006A442A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LT;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 522DCD651537D5A3006A442A /* Build configuration list for PBXProject "LTUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 522DCD601537D5A3006A442A;
+			productRefGroup = 522DCD6C1537D5A4006A442A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				522DCD6A1537D5A4006A442A /* LTUtils */,
+				522DCD971537D5A5006A442A /* LTUtilsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		522DCD691537D5A4006A442A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522DCD7A1537D5A4006A442A /* InfoPlist.strings in Resources */,
+				522DCD891537D5A4006A442A /* LTMasterViewController_iPhone.xib in Resources */,
+				522DCD8C1537D5A4006A442A /* LTMasterViewController_iPad.xib in Resources */,
+				522DCD8F1537D5A5006A442A /* LTDetailViewController_iPhone.xib in Resources */,
+				522DCD921537D5A5006A442A /* LTDetailViewController_iPad.xib in Resources */,
+				522DCDD31537D65D006A442A /* LTNavigationControllerLTBar.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522DCD951537D5A5006A442A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522DCDA41537D5A5006A442A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		522DCD961537D5A5006A442A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		522DCD671537D5A4006A442A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522DCD7C1537D5A4006A442A /* main.m in Sources */,
+				522DCD801537D5A4006A442A /* LTAppDelegate.m in Sources */,
+				522DCD831537D5A4006A442A /* LTMasterViewController.m in Sources */,
+				522DCD861537D5A4006A442A /* LTDetailViewController.m in Sources */,
+				522DCDCE1537D65D006A442A /* LTAlertView.m in Sources */,
+				522DCDD01537D65D006A442A /* LTExtension.m in Sources */,
+				522DCDD11537D65D006A442A /* LTNavigationBar.m in Sources */,
+				522DCDD21537D65D006A442A /* LTNavigationController.m in Sources */,
+				522DCDD61537D65D006A442A /* LTScreenCornerRoundedView.m in Sources */,
+				522DCDD71537D65D006A442A /* LTTableView.m in Sources */,
+				522DCDD81537D65D006A442A /* LTView.m in Sources */,
+				5261448715D0FCBE0043F749 /* LTActionSheet.m in Sources */,
+				52CF90B91675D64400F32344 /* LTWeakTimer.m in Sources */,
+				521A5BBB16F4199D00D010F4 /* LTAutoRefresher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522DCD931537D5A5006A442A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522DCDA71537D5A5006A442A /* LTUtilsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		522DCD9E1537D5A5006A442A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 522DCD6A1537D5A4006A442A /* LTUtils */;
+			targetProxy = 522DCD9D1537D5A5006A442A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		522DCD781537D5A4006A442A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				522DCD791537D5A4006A442A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		522DCD871537D5A4006A442A /* LTMasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				522DCD881537D5A4006A442A /* en */,
+			);
+			name = LTMasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		522DCD8A1537D5A4006A442A /* LTMasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				522DCD8B1537D5A4006A442A /* en */,
+			);
+			name = LTMasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		522DCD8D1537D5A5006A442A /* LTDetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				522DCD8E1537D5A5006A442A /* en */,
+			);
+			name = LTDetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		522DCD901537D5A5006A442A /* LTDetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				522DCD911537D5A5006A442A /* en */,
+			);
+			name = LTDetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		522DCDA21537D5A5006A442A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				522DCDA31537D5A5006A442A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		522DCDA81537D5A5006A442A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		522DCDA91537D5A5006A442A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		522DCDAB1537D5A5006A442A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LTUtils/LTUtils-Prefix.pch";
+				INFOPLIST_FILE = "LTUtils/LTUtils-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		522DCDAC1537D5A5006A442A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LTUtils/LTUtils-Prefix.pch";
+				INFOPLIST_FILE = "LTUtils/LTUtils-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		522DCDAE1537D5A5006A442A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LTUtils.app/LTUtils";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LTUtils/LTUtils-Prefix.pch";
+				INFOPLIST_FILE = "LTUtilsTests/LTUtilsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		522DCDAF1537D5A5006A442A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LTUtils.app/LTUtils";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LTUtils/LTUtils-Prefix.pch";
+				INFOPLIST_FILE = "LTUtilsTests/LTUtilsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		522DCD651537D5A3006A442A /* Build configuration list for PBXProject "LTUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522DCDA81537D5A5006A442A /* Debug */,
+				522DCDA91537D5A5006A442A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		522DCDAA1537D5A5006A442A /* Build configuration list for PBXNativeTarget "LTUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522DCDAB1537D5A5006A442A /* Debug */,
+				522DCDAC1537D5A5006A442A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		522DCDAD1537D5A5006A442A /* Build configuration list for PBXNativeTarget "LTUtilsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522DCDAE1537D5A5006A442A /* Debug */,
+				522DCDAF1537D5A5006A442A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 522DCD621537D5A3006A442A /* Project object */;
+}
